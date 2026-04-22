@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/*Index Main Page(i)*/
+
+.i-header{
+	--animate-delay:2s;
+/*	animation-delay: 1s;*/
+	--animate-duration: 3s;
+/*	--animate-timeline: 20s;*/
+}
+.i-d-one{
+ --animate-delay:10s;
+}
+.i-d-two{
+ --animate-delay:20s;
+}
+.i-d-three{
+ --animate-delay:30s;
+}
+.i-d-four{
+ --animate-delay:40s;
+}
+
+
+.i-three{
+	--animate-duration:3s;
+}
+
+.i-two{
+	--animate-duration:2s;
+}
+.i-delay{
+	--animate-delay:0.25s;
+}
+.i-delay-a{
+	--animate-delay:0.5s;
+}
+.i-delay-b{
+	--animate-delay:0.75s;
+}
+.i-delay-c{
+	--animate-delay:1s;
+}
+.i-delay-d{
+	--animate-delay:1.25s;
+}
+.i-delay-e{
+	--animate-delay:1.5s;
+}
+.i-delay-f{
+	--animate-delay:1.75s;
+}
+.i-delay-g{
+	--animate-delay:2s;
+}
+.i-delay-h{
+	--animate-delay:2.25s;
+}
+.i-delay-i {
+  --animate-delay: 2.5s;
+}
+.i-delay-j {
+  --animate-delay: 2.75s;
+}
+.i-delay-k {
+  --animate-delay: 3s;
+}
+.i-delay-l {
+  --animate-delay: 3.25s;
+}
+.i-delay-m {
+  --animate-delay: 3.5s;
+}

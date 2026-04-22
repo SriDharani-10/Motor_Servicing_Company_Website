@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+/*	color: black;*/
+}
+
+
+.inner-header-style{
+    padding-left: 133px;
+}
+
+.header-element{
+	color: white;
+    font-weight: 600;
+    margin-right: 65px;
+    margin-left: -5px;
+    text-decoration: none;
+}
+
+/*.b-header-element{
+	
+    font-weight: 600;
+    margin-right: 65px;
+    margin-left: 14px;
+    text-decoration: none;
+}*/
+
+.logo{
+	height: 75px;
+    width: 120px;
+}
+
+.contact-button{
+	background: radial-gradient(#c0defc,#258df5);
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom:3px;
+	border-radius: 10px;
+}
+
+@media (max-width:990px){
+	#elements{
+		display: none !important;
+	}
+	.logo{
+	height: 50px;
+    width: 90px;
+	}
+}
+
+@media (min-width:991px) and (max-width:1200px){
+	#elements{
+		display: block !important;
+	}
+	.logo{
+	height: 75px;
+    width: 120px;
+	}
+}
+
+.hamburger{
+	width: 20px;
+	height: 20px;
+	margin-right: 25px;
+}
+
+
+@media (max-width:990px){
+	.hamburger{
+		display: block;
+	}
+}
+
+@media (min-width:991px){
+	.hamburger{
+		display: none !important;
+	}
+}
+
+.banner{
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+	bottom: 84px;
+}
+
+.banner-text{
+	position: relative;
+    bottom: 490px;
+    padding-left:70px;/*
+    left: 70px;*/
+    h1,p{
+    	font-weight: bolder;
+    	font-size: 45px;
+    }p{
+    	font-size: 30px;
+    }
+}
+
+.ind-mot{
+	/*background-size: cover;*/
+	width: 100%;
+}
+
+.spacing-styles{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-align: justify;
+}
+
+.icon li::before{
+	content: "\f013";
+/*	content: "\f085";*/
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	color: royalblue;
+}
+
+.cert{
+	width: 171px;
+	height: 153px;
+	position: relative;
+	top: -86px;
+	left: 386px;
+}
+
+.icon-bg{
+	background: blue;
+}
+
+.style-sec{
+	background-image: url("/starkmotors/1_starkmotors-22-7-25/starkmotors/images-starkmotors/Home/back.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	border-color: transparent;
+	border-width: 15px;
+	border-style: solid;
+}
+
+.blur-style{
+	backdrop-filter: blur(15px);
+	border-radius: 30px;
+	padding:30px;
+}
+
+
+
+@media (max-width:991px){
+	.border1{
+		border-style: none;
+	}
+	.border2{
+		border-style: none;
+	}
+}
+
+@media (min-width:992px){
+	.border1{
+		border-left: 1px solid;
+		border-right: 1px solid;
+		border-color: black;
+		height: 150px;
+	}
+	.border2{
+		border-right: 1px solid;
+		border-color: black;
+		height: 150px;
+	}
+}
+
+.imgsize{
+	height: 85px;
+	width: 85px;
+}
+
+.motor-pics{
+	height: 200px;
+	width: 265px;
+}
+
+.cards{
+	border-width:1px;
+	border-style: solid;
+	border-color: #dcdee0;
+	border-radius: 20px;
+	background-color: #f0f1f2;
+}
+
+
+.explore{
+	text-align: center;
+	text-align: center;
+    height: 54px;
+    width: 200px;
+    font-size: 20px;
+    background: white;
+    border: 3px solid #4f95c4;
+    border-radius: 10px;
+    color: #4f95c4;
+    font-weight: 700;
+}
+
+.style-sec p{
+	font-weight: 700;
+	font-family: "Roboto";
+	height: 30px;
+	font-size: 20px;
+}
+
+.style-sec h1{
+	font-weight: 700;
+}
+
+@media (max-width:991px){
+	.mb-view{
+		display: block;
+	}
+	.pc-view{
+		display: none;
+	}
+
+}
+
+@media (min-width:992px){
+	.pc-view{
+		display: block;
+	}
+	.mb-view{
+	display: none;
+ }
+}
+
+
+.bestquality{
+	position: relative;
+	bottom: 220px;
+	right: 65px;
+}
+
+.bg-container{
+	border-radius: 32px;
+    background: linear-gradient(258deg, #373551 8.48%, #212026 94.83%);
+    padding: 80px;
+    margin-top: -160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+}
+
+.roll-images-container{
+	max-height: 300px;
+	min-width: 100px;
+	max-width: 300px;
+	overflow: hidden;
+}
+
+.roll-big{
+    position: relative;
+    left: 410px;
+    bottom: 590px;
+}
+
+.roll-small{
+	position: relative;
+/*	top:153px;*/
+left: 100px;
+}
+
+.spin-image {
+  animation: spin 10s linear infinite; /* duration: 3s, repeats forever */
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.moreabout{
+	height: 47px;
+    width: 155px;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+	background: linear-gradient(45deg, rgb(64, 168, 219) 13.72%, rgb(43, 103, 173) 100%);;
+}
+
+.unit-style{
+	font-family: ui-sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: royalblue;
+    margin: 30px;
+    text-align: center;
+}
+
+.faq-seciton{
+	height: 10px;
+}
+
+.sticky{
+	position:fixed ;
+    background-color: white;
+    box-shadow: 0px 0px 6px black;
+    z-index: 1000;
+}
+
+
+.sticky .header-element{
+	color: black !important;
+}
+
+.card-style{
+	background-color:#79b2fc;
+/*	background-image: linear-gradient(to top right,#fcb6d0,#fc5693);*/
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 0px;
+	box-shadow:1px 1px 6px 1px #423efa ;
+	border-color: white;
+	margin-bottom: 27px;
+	color: white;
+    font-size: 16px;
+    font-family: auto;
+}
+
+.card-header-style{
+	background-color: #423efa !important;
+    border-radius: 10px !important;
+    padding: 22px !important;
+    box-shadow: 0px 0px 6px 0px black !important;
+    border-color: white !important;
+    margin-bottom: -6px !important;
+    color: white !important;
+    font-size: 22px !important;
+    font-family: auto !important;
+    font-weight: bold;
+}
+
+.margin-alignment{
+	margin-bottom: 35px !important;
+	border:none !important;
+}
+
+
+.footer-bg{
+	background-color:#292929;
+	color: white;
+
+}
+
+.footer-2{
+    color: white;
+    background-color: #292929;
+    border-top-width: 1px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.mist-logo{
+    width: 24vw;
+    height: 6vh;
+}
+
+.footer-logo{
+	width: 175px;
+	height: 100px;
+}
+
+.footer-text-container{
+	text-align: center;
+}
+
+.icons-container{
+	i{
+		font-size: 30px;
+		margin:10px;
+	}
+}
+.header-options-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	p{
+		margin:15px;
+		margin-right: 5px;
+		text-align: center;
+		color: white;
+
+	}
+	a{
+		text-decoration: none !important;
+	}
+}
+
+
+@media (max-width:992px){
+	.copyrights{
+		font-size: 15px;
+	}
+	.mist-logo{
+		height: 20px;
+	}
+	.footer-text-container{
+		font-size: 15px;
+	}
+	.header-options-container{
+		font-size: 15px;
+	}
+	.icons-container{
+		i{
+			font-size: 20px;
+			margin:10px;
+		}
+	}
+}
+
+
+
+/*javascript style*/
+.button-style{
+    height: 30px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: turquoise;
+}
+
+.list-style{
+	height: 60px;
+    width: 300px;
+    background-color: beige;
+    font-family: "Roboto";
+    border-radius: 10px;
+    border: 0px solid red;
+    border-left-width: 5px !important;
+    margin: 20px;
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+ /*About
+.about-banner{
+	position: absolute;
+    z-index: 10;
+    bottom: 250px;
+    left: 313px;
+    color: white;
+    font-size: 25px;
+	text-align: center;
+	width: 600px;	
+}*/
+
+.about-bg{
+	background-image: url("/starkmotors/1_starkmotors-22-7-25/starkmotors/images-starkmotors/About/aboutbanner.png");
+	position: relative;
+    top: -83px;
+    z-index: -1;
+}
+
+
+.all-heads{
+	font-size: 40px;
+	font-family: Manrope,sans-serif;
+	font-weight: 600;
+}
+
+@media (max-width:767px){
+	.all-heads{
+	font-size: 30px;
+	font-family: Manrope,sans-serif;
+	font-weight: 600;
+}
+}
+
+.all-para{
+	font-size: 16px;
+	font-family: Rubik,sans-serif;
+	line-height: 1.5;"
+}
+
+.padd-top100{
+	padding-top: 150px;
+	font-size: 25px;
+}
+
+.padd-bot100{
+	padding-bottom: 150px;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+
+.about-inner-image{
+	background-color: #11255a !important;
+	text-align: center;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid white;
+    font-size: 30px;
+    font-family: fantasy;
+    word-spacing: 6px;
+    letter-spacing: 6px;
+    position: relative;
+    bottom:55%;
+    left:45%;
+}
+
+.about-card{
+	padding: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 185px;
+    margin:10px;
+    p{
+    	margin-top: 20px;
+    }
+    i{
+    	font-size: 40px;
+    	color: royalblue;
+    }	
+}
+.client-style{
+	color: royalblue;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: -60px;
+}
+
+@media (max-width:767px){
+	.cust-style{
+		font-size:30px;
+	}
+	.mb-pc-size1{
+		font-size: 20px;
+	}
+	.mb-pc-size2{
+		font-size: 45px;
+	}
+}
+
+.test-card{
+	height: auto;
+    width: 350px;
+    padding:27px;
+    padding-bottom: 1px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 20px;
+}
+
+.cust-name{
+	border-color:black;
+    border-style: solid;
+    border-top-width: 1px !important;
+    border-width: 0px;
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 7px;
+    align-items: center;
+}
+
+.p-style{
+	text-align: justify;
+	line-height: 30px;
+}
+
+.boy-image{
+	margin-right: 20px;
+}
+
+.list-style-usp::before{
+	content: "\f6e3";
+	font-family: "FontAwesome";
+	color: #16239c;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.image-alignment{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ourpro-bg{
+	background-image: url("/starkmotors/1_starkmotors-22-7-25/starkmotors/images-starkmotors/OurProducts/ourpro_banner.png") !important;
+}
+
+.test-bg{
+	background-image: url("/starkmotors/4_starkmotors-18-8-25/starkmotors/images-starkmotors/Testimonials/testimonials_banner.png") !important;	
+}
+
+.imgpart{
+	background-color: #dbd7d7;
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+	padding: 20px;
+
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -2;
+}
+
+.image-flex{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 70px;
+	left: 150px;
+	z-index: -1;
+}
+
+
+@media (min-width:768px){
+	.ml-adj{
+		margin-left: 124px !important;
+	}
+}
+
+
+@media (max-width:767px){
+	.ml-adj{
+		.imgpart{
+			margin-left: 60px;
+		}
+	}
+}
+
+/*.bclr {
+	color: black !important;
+}*/
+
+.form-alignment{
+	padding-left: 60px !important;
+	padding-right: 60px !important;
+	padding: 45px;
+	border-radius: 35px;
+	width: 80vw !important;
+	position: relative;
+    bottom: 200px;
+    z-index: 10!important;
+    background-color: white;
+    margin-bottom: -140px;
+}
+
+.inputstyle{
+	width: 35vw;
+    height: 50px;
+    border: 1px solid #030e6e;
+    border-radius: 10px;
+    color: #030e6e;
+}
+
+.inputstyle-text{
+	color: #030e6e;
+	width: 100%;
+	height: 150px !important;
+}
+
+.labelstyle{
+	font-size: 25px;
+    font-family: BreeSerif;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    color: #030e6e;
+    font-weight: 600;
+}
+
+.innertext-style{
+	font-size: 20px;
+    font-family: LibreCaslonText;
+    padding: 11px;
+}
+
+.submit-style{
+	width: 100%;
+	height: 50px;
+}
+
+.enquiry-bg{
+	background-image: url("/starkmotors/5_starkmotors-19-8-25/starkmotors/images-starkmotors/Enquiry/enquiry_banner.png") !important;
+}
+
+.contact-bg{
+	background-image: url("/starkmotors/5_starkmotors-19-8-25/starkmotors/images-starkmotors/Contactus/contactus_banner.png") !important;
+}
+.section-alignment{
+	padding: 20px;
+	text-align: left;
+}
+
+.contact-image{
+	height: 15vh;
+	width: 7vw;
+}
+
+.subhead-style{
+	font-size: 27px;
+    font-family: cambria;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.span-text-style{
+	font-size: 20px;
+    font-weight: bold;
+    font-family: cambria;
+}
+
+.details-style{
+	font-size: 20px;
+    font-family: cambria;
+}
+
+@media (min-width:750px){
+	.address-border{
+		border:1px solid grey;
+		border-top-width: 0px;
+		border-bottom: none;
+	}
+}
+
+.gallery-image{
+	width: 75%;
+}
+
+.img-align{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+/*    margin: 10px;*/
+}
+
+.gal-img-name{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.pro_name_style{
+	text-align: center;
+    margin-top: -62px;
+    margin-left: -95px;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+
+/*PRODUCTS DETAILS PAGE*/
+
+.elements-alignment{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    background-color: #f0f9fa;
+    padding: 20px;
+    border: 3px solid #090299;
+    border-radius: 10px;
+}
+
+.products-alignment{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+/*	padding: 10px;*/
+}
+
+.pro_title_style{
+	text-align: center;
+    margin-top: 20px;
+    /* margin-left: -95px; */
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+.price_style{
+	text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: serif;
+}
+
+.description_style{
+	width: 25vw;
+    text-align: justify;
+    font-size: 18px;
+    font-family: serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.features_style{
+    width: 25vw;
+/*    padding-right: 210px;*/
+    text-align: justify;
+    font-size: 18px;
+    font-family: serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.features-head{
+	margin-top: 20px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+/*.whatsapp{
+	position: fixed;
+	margin-top: 435px;
+	margin-left: 1115px;
+}*/
+
+.whatsapp {
+  position: fixed;
+  bottom: 40px;    /* Distance from bottom */
+  right: 40px;     /* Distance from right */
+  width: 60px;     /* Adjust size */
+  z-index: 9999;
+  --animate-duration: 2s;
+}
